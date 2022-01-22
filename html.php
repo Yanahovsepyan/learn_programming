@@ -57,7 +57,11 @@
                <p> <strong>
                    Վերնագրի համար գոյություն ունի 6 չափ: Ամենամեծը h1-է : Իսկ ամենափոքրը h6: Այն գրվում է h1 : Փակվում /h1 : Իհարկե գրվում է &lt;&gt; սլաքների մեջ: Այն ինչ ցանկանում եք գրել պետք է գրել նրանց մեջտեղում :  
                </strong></p> <br> 
-              <a href="compile.html"> <button>Try</button> </a>
+               <form action="compile.php" method="POST">
+        <input type="hidden" name="insert"
+        value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+        <button type="submit" class="btn btn-success" >Try it Yourself >></button>
+    </form>
            </div>
         
        </div>
@@ -143,10 +147,10 @@
            <div class="col">
                <div class="row">
                 <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
-                    <a href="programming.html" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
+                    <a href="programming.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
                 </div>
                 <div class="col-lg-6  mt-5 mb-5 ">
-                    <a href="php.html" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
+                    <a href="php.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
                </div>
            </div>
     

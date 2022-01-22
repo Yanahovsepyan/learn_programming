@@ -20,8 +20,7 @@
             </div>
         </div>
     </div>
-    
-    
+    <!-- TODO create online compiler -->
     <script>
         function updateIframeContent(iframeElement, newHTML)
         {
@@ -30,6 +29,7 @@
             iframeElement.contentWindow.document.write(newHTML);
             iframeElement.contentWindow.document.close();
         }
+
         window.onload = function() {
             let liveCode = document.getElementById('liveCode');
             let codeInput = document.getElementById("codeInput").contentWindow;
