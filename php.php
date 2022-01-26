@@ -120,7 +120,7 @@
                   } <br>
                   
              </strong>
-            </div>
+        </div>
         </div> <hr style="color: darkslateblue ;" >
 
         <div class="row">

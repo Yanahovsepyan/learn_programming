@@ -53,22 +53,19 @@
            <div class="col mt-4 ">
                <h3 style="color: orangered;">2.Վերնագիր</h3> 
            </div>
-           <div class="col mt-4">
+            <div class="col mt-4">
                <p> <strong>
                    Վերնագրի համար գոյություն ունի 6 չափ: Ամենամեծը h1-է : Իսկ ամենափոքրը h6: Այն գրվում է h1 : Փակվում /h1 : Իհարկե գրվում է &lt;&gt; սլաքների մեջ: Այն ինչ ցանկանում եք գրել պետք է գրել նրանց մեջտեղում :  
                </strong></p> <br> 
-               <form action="compile.php"  method="POST">
-                <input type="hidden" name="insert"
-                value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+                <form action="compile.php"  method="POST">
+                    <input type="hidden" name="insert" value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
               
-               <div class="col-lg-4 mt-5 ">
-                <button  type="submit" class="btn btn-success  " style="color: black;"  >Try it Yourself >></button>
-            </form>
-           </div>
-       
-    </form>
+                <div class="col-lg-4 mt-5 ">
+                    <button  type="submit" class="btn btn-success" style="background-color: black;"  >Try it Yourself >></button>
+                </div>
+                </form>
+            </div>
  
-           </div>
         
        </div>
        <div class="row">
