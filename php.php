@@ -67,7 +67,75 @@
                    <h3 style="color: blue;" >3.Տեքստ</h3>
             </div>
             <div class="col mt-4 ">
-                    Տեքստը PHP-ում գրում ենք echo հրամանով: Տեքստը գրելով "չակերտների" մեջ։ 
+                <strong>
+                    Տեքստը PHP-ում գրում ենք echo հրամանով: Տեքստը գրելով "չակերտների" մեջ։  <br>
+                &quot;echo&quot; &semi;
+                </strong>  
+            </div>
+        </div>  <hr style="color: darkslateblue;" >
+        <div class="row">
+            <div class="col mt-5">
+                <h3 style="color: blue;">4.Փոփոխականներ </h3> 
+            </div>
+            <div class="col mt-4 ">
+                <strong>
+                Երբեմն հարմար է փոփոխականների անուններ ունենալ որպես փոփոխական։ Այսինքն՝ փոփոխականի անուն, որը կարելի է դինամիկ կերպով սահմանել և փոխել։ Սովորական փոփոխականը սահմանվում է այսպես. <br>
+                &lt;?php
+                $a = 'hello';
+                ?&gt;
+            </strong>
+            </div>
+        </div> <hr style="color: darkslateblue;" >
+        <div class="row">
+            <div class="col">
+                <h3 style="color: blue;">5. Զանգված</h3> 
+            </div>
+            <div class="col mt-4 ">
+        <strong>
+            Զանգվածը պահպանում է բազմաթիվ արժեքներ մեկ փոփոխականում. <br>
+            &lt;?php
+            $cars = array("Volvo", "BMW", "Toyota");
+            echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+             ?&gt;
+        </strong>
+            </div>
+        </div> <hr style="color: darkslateblue;" >
+        <div class="row">
+            <div class="col">
+                <h3 style="color: blue;">6.Պայմանական հայտարարություններ</h3> 
+            </div>
+       
+        <div class="col mt-4 ">
+             <strong>
+                Պայմանական հայտարարություններն օգտագործվում են տարբեր պայմանների հիման վրա տարբեր գործողություններ կատարելու համար: <br>
+                if - գործարկել որոշ կոդ, եթե մի պայման ճիշտ է: <br>
+                if...else - կատարում է որոշ կոդ, եթե պայմանը ճիշտ է, և մեկ այլ կոդ, եթե այդ պայմանը սխալ է : <br> <br> 
+                if (condition) { <br>
+                    կոդը, որը պետք է կատարվի, եթե պայմանը ճշմարիտ է.
+                } <br>
+                if (condition) { <br>
+                    կոդը, որը պետք է կատարվի, եթե պայմանը ճշմարիտ է. <br>
+                  } else { <br>
+                    կոդը, որը պետք է կատարվի, եթե պայմանը կեղծ է.
+                  } <br>
+                  
+             </strong>
+            </div>
+        </div> <hr style="color: darkslateblue ;" >
+
+        <div class="row">
+            <div class="col mt-3  ">
+                <h3 style="color: blue; text-align: center; " > Շնորհավորում եմ դուք արդեն ունեք html-ի մասին սկզբնական գիտելիքներ </h3>
+            </div>
+        </div>
+        <hr style="color: black;" >
+        <div class="col">
+            <div class="row">
+             <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
+                 <a href="programming.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
+             </div>
+             <div class="col-lg-6  mt-5 mb-5 ">
+                 <a href="html.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >HTML</a>
             </div>
         </div>
     </div>
