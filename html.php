@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML learning</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon" href="image/my_logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body style="background-color: peachpuff;" >
@@ -49,146 +50,161 @@
            </div>
        </div>
 
-       <div class="row">
-           <div class="col mt-4 ">
+        <div class="row">
+            <div class="col mt-4 ">
                <h3 style="color: orangered;">2.Վերնագիր</h3> 
-           </div>
+            </div>
             <div class="col mt-4">
                <p> <strong>
                    Վերնագրի համար գոյություն ունի 6 չափ: Ամենամեծը h1-է : Իսկ ամենափոքրը h6: Այն գրվում է h1 : Փակվում /h1 : Իհարկե գրվում է &lt;&gt; սլաքների մեջ: Այն ինչ ցանկանում եք գրել պետք է գրել նրանց մեջտեղում :  
                </strong></p> <br> 
+            </div>
+            <div class="col">
                 <form action="compile.php"  method="POST">
                     <input type="hidden" name="insert" value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
               
-                <div class="col-lg-4 mt-5 ">
-                    <button  type="submit" class="btn btn-success" style="background-color: black;"  >Try it Yourself >></button>
-                </div>
+                    <button  type="submit" class="btn btn-success" style="background-color: orangered;"  >Try it Yourself >></button>
                 </form>
             </div>
+
+        </div>
  
         
-       </div>
-       <div class="row">
-           <div class="col mt-4">
+       
+        <div class="row">
+            <div class="col mt-4">
                <h3 style="color: orangered;">3.Ոճ</h3>
-           </div>
-           <div class="col">
+            </div>
+            <div class="col">
                <p> <strong>
                    Որպես օրինակ կարող ենք վերցնել &lt;h1&gt; հրամանը : Անգլերեն style նշանակում է ոճ: Եվ մենք կօգտագործենք style հրամանը : Այն գրվում է այսպես օրինակ &lt;h1 style="color: black;" &gt; color - ի փոխարեն կարող եք ընտրել նաև այլ հրամաններ : Վերնագիրը գեղեցիկ է լինում մեջտեղում : Դա իրականացնելու համար հարկավոր է օգտագործել կրկին style հրամանը : Կարող ենք օգտագործել այն օրինակ հ1 hրամանի հետ &lt;հ1 style="text-align:center;" &gt; :
                </strong></p>
-           </div>
-           <form action="compile.php"  method="POST">
-            <input type="hidden" name="insert"
-            value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+            </div>
+            <div class="col">
+                <form action="compile.php"  method="POST">
+                    <input type="hidden" name="insert"
+                     value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+                    <button  type="submit" class="btn btn-success" style="background-color: orangered;"  >Try it Yourself >></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mt-4 ">
+                <h3 style="color: orangered;" > 4. Տեքստ </h3>
+            </div>
+            <div class="col mt-4 ">
+                <p> <strong>
+                    Սովորական տեքստ գրելու համար կարելի է օգտագործել <р> հրամանը որը նշանակում Է paragraph: Սակայն կարելի է տեքստին տալ նաև տարբեր ձևեր: Italic - <i>Տեքստը գրում է թեք</i> : Այն նշանակում են &lt;i&gt; : Strong - <strong>Տեքստը գրում է մուգ</strong> : Այս հրամաններին նույնպես կարելի է տալ style :  U - underline - <u>Ընդգծում է տեքստը</u> : 
+                </strong> </p>
+            </div>
+            <div class="col">
+                <form action="compile.php"  method="POST">
+                    <input type="hidden" name="insert"
+                        value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
           
-        
-        </div>
-       </div>
-       <div class="row">
-        <div class="col mt-4 ">
-            <h3 style="color: orangered;" > 4. Տեքստ </h3>
-        </div>
-        <div class="col mt-4 ">
-            <p> <strong>
-        Սովորական տեքստ գրելու համար կարելի է օգտագործել <р> հրամանը որը նշանակում Է paragraph: Սակայն կարելի է տեքստին տալ նաև տարբեր ձևեր: Italic - <i>Տեքստը գրում է թեք</i> : Այն նշանակում են &lt;i&gt; : Strong - <strong>Տեքստը գրում է մուգ</strong> : Այս հրամաններին նույնպես կարելի է տալ style :  U - underline - <u>Ընդգծում է տեքստը</u> : 
-            </strong> </p>
-        </div>
-        <form action="compile.php"  method="POST">
-            <input type="hidden" name="insert"
-            value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
           
-           <div class="col-lg-4  mt-5 ">
-            <button  type="submit" class="btn btn-success  " style="color: black;"  >Try it Yourself >></button>
-        </form>
-       </div>
-       <div class="row">
-           <div class="col mt-4">
-               <h3 style="color: orangered;" >4.Նկար</h3>
-           </div>
+                    <button  type="submit" class="btn btn-success  " style="background-color: orangered;"  >Try it Yourself >></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mt-4">
+                <h3 style="color: orangered;" >4.Նկար</h3>
+            </div>
            <div class="col mt-4 ">
-               <p> <strong>
-             Նկար վերցնելու համար հարկավոր է  Google-ից կամ այլ ցանցից ընտրել նկար, սեղմել աջ սեղմակը և ընտրել Copy image address hրամանը :
-              Նկար տեղադրելու համար հարկավոր է օգտվել img հրամանից : Image- նկար : Այս հրամանը գրելու դեպքում կտեսնեք , որ ավելանում է alt հրամանը ինչը շատ օգտակար , երբ նկարը չի երևում: Այնտեղ կարող եք կրճատ գրել ինչի մասին է նկարը:
+                <p> <strong>
+                    Նկար վերցնելու համար հարկավոր է  Google-ից կամ այլ ցանցից ընտրել նկար, սեղմել աջ սեղմակը և ընտրել Copy image address hրամանը :
+                    Նկար տեղադրելու համար հարկավոր է օգտվել img հրամանից : Image- նկար : Այս հրամանը գրելու դեպքում կտեսնեք , որ ավելանում է alt հրամանը ինչը շատ օգտակար , երբ նկարը չի երևում: Այնտեղ կարող եք կրճատ գրել ինչի մասին է նկարը:
                </strong> </p>
-           </div>
-           <form action="compile.php"  method="POST">
-            <input type="hidden" name="insert"
-            value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+            </div>
+            <div class="col">
+                <form action="compile.php"  method="POST">
+                    <input type="hidden" name="insert"
+                    value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
           
-           <div class="col-lg-4 mt-5 ">
-            <button  type="submit" class="btn btn-success  " style="color: black;"  >Try it Yourself >></button>
-        </form>
-       </div>
+                    <button  type="submit" class="btn btn-success  " style="background-color: orangered;"  >Try it Yourself >></button>
+
+                </form>
+            </div>
+        </div>
     
-       <div class="row">
-           <div class="col mt-4 ">
-               <h3 style="color: orangered;"> 5.Հղում(link) </h3>
-           </div>
-           <div class="col mt-4 "> 
-               <p><strong>
+        <div class="row">
+            <div class="col mt-4 ">
+                <h3 style="color: orangered;"> 5.Հղում(link) </h3>
+            </div>
+            <div class="col mt-4 "> 
+                <p><strong>
                    Հղումը օգտագործելու համար կարելի է օգտագործել &lt;a&gt; հրամանը : 
-               </strong></p>
-           </div>
-           <form action="compile.php"  method="POST">
-            <input type="hidden" name="insert"
-            value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+                </strong></p>
+            </div>
+            <div class="col">
+                <form action="compile.php"  method="POST">
+                    <input type="hidden" name="insert"
+                        value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
           
-           <div class="col-lg-4 mt-5 ">
-            <button  type="submit" class="btn btn-success  " style="color: black;"  >Try it Yourself >></button>
-        </form>
-       </div>
-       </div>
+          
+                    <button  type="submit" class="btn btn-success  " style="background-color: orangered;"  >Try it Yourself >></button>
+        
+                 </form>
+            </div>
+        </div>
        
-       <div class="row">
-           <div class="col mt-4 ">
+        <div class="row">
+            <div class="col mt-4 ">
                <h3 style="color: orangered;">6.Կոճակ(button)</h3>
-           </div>
-           <div class="col mt-4 ">
-            <button type="button" >Կոճակ</button>
-            <p><strong>
-                Կոճակի համար անհրաժեշտ է buttоn հրամանը: &lt;Button&gt;
-                 հրամանին կարող ենք style սահմանել : Կոճակին կարող ենք link ավելացնել :  
-                 &lt;button style="" ;&gt;
-            </strong></p>
-           </div>
-           <form action="compile.php"  method="POST">
-            <input type="hidden" name="insert"
-            value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
+            </div>
+            <div class="col mt-4 ">
+                <button type="button" >Կոճակ</button>
+                <p><strong>
+                    Կոճակի համար անհրաժեշտ է buttоn հրամանը: &lt;Button&gt;
+                    հրամանին կարող ենք style սահմանել : Կոճակին կարող ենք link ավելացնել :  
+                    &lt;button style="" ;&gt;
+                </strong></p>
+            </div>
+            <div class="col">
+                <form action="compile.php"  method="POST">
+                    <input type="hidden" name="insert"
+                        value="%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%09%3Chead%3E%0A%09%09%3Ctitle%3EPage%20Title%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Ch1%3EMy%20First%20Heading%3C%2Fh1%3E%0A%09%09%3C!--%20Your%20Heading%20--%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E">
           
-           <div class="col-lg-4 mt-5 ">
-            <button  type="submit" class="btn btn-success  " style="color: black;"  >Try it Yourself >></button>
-        </form>
-       </div>
-       </div>
-       <div class="row">
-           <div class="col  mt-4 ">
-               <h3 style="color: orangered;"> 7.Լրացուցիչ նյութեր </h3>
-           </div>
-           <div class="col mt-3 mb-4 ">
-               <strong>
-          1.Տող բաց թողնելու համար պետք է &lt;br&gt; հրամանը: <br>
-          2.Տող բաց թողնելու հարմար և ներքևում ընդգծելու համար օգտագործվում է &lt;hr&gt; : Նրան նույնպես կարող ենք style տալ:  
-           
-              </strong>
-           </div>
-           <hr style="color: black;" >
-           <div class="row">
-               <div class="col mt-3  ">
-                   <h3 style="color: orangered; text-align: center; " > Շնորհավորում եմ դուք արդեն ունեք html-ի մասին սկզբնական գիտելիքներ </h3>
-               </div>
-           </div>
-            <hr style="color: black;" >
-           <div class="col">
-               <div class="row">
-                <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
-                    <a href="programming.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
-                </div>
-                <div class="col-lg-6  mt-5 mb-5 ">
-                    <a href="php.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
-               </div>
-           </div>
+          
+                    <button  type="submit" class="btn btn-success  " style=background-color:orangered;  >Try it Yourself >></button>
+     
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col  mt-4 ">
+                <h3 style="color: orangered;"> 7.Լրացուցիչ նյութեր </h3>
+            </div>
+            <div class="col mt-3 mb-4 ">
+                <strong>
+                     1.Տող բաց թողնելու համար պետք է &lt;br&gt; հրամանը: <br>
+                     2.Տող բաց թողնելու հարմար և ներքևում ընդգծելու համար օգտագործվում է &lt;hr&gt; : Նրան նույնպես կարող ենք style տալ:  
+                </strong>
+            </div>
+        </div>
+        <hr style="color: black;" >
+
+        <div class="row">
+            <div class="col mt-3  ">
+                <h3 style="color: orangered; text-align: center; " > Շնորհավորում եմ դուք արդեն ունեք html-ի մասին սկզբնական գիտելիքներ </h3>
+            </div>
+        </div>
+        <hr style="color: black;" >
+
+        <div class="row">
+            <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
+                <a href="programming.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
+            </div>
+            <div class="col-lg-6  mt-5 mb-5 ">
+                <a href="php.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
+            </div>
+        </div>
     
- </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html
