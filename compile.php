@@ -10,15 +10,30 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <body>
     <div class="container-fluid">
-      
+        <div class="row">
+            <div class="col-1 offset-10">
+                <img src="image/mobile_logo.png" class="img-fluid" alt="" onclick="document.getElementById('live').outerHTML = `<div id='live' class='col-lg-7 col-md-6 col-sm-12 border p-0 m-0' style='position: relative;'><iframe class='border' src='' id='liveCode' height='593' width='295' frameborder='0'  style='position: absolute;top: 0px;left: 0px;'></iframe>  <img src='image/iphone_mockup.png' alt='' style='position: absolute;top: 0px;left: 0px;'></div>`">
+            </div>
+            <div class="col-1 ">
+                <img src="image/notebook.png" class="img-fluid" alt="" 
+                onclick="document.getElementById('live').outerHTML = `<div id='live'  class='col-lg-7 col-md-6 col-sm-12 border p-0 m-0'>    <iframe class='border' src='' id='liveCode' height='100%' width='100%' frameborder='0' ></iframe></div>`">
+            </div>
+        </div>
         <div class="row" style="min-height: 90vh;">
             <div class="col-lg-5 col-md-6 col-sm-12 border p-0 m-0">
                 <!-- <textarea name="" id="code" cols="30" rows="10" oninput="updateIframeContent(document.getElementById('liveCode'),this.value);"></textarea> -->
                 <iframe src="highlight.php" id="codeInput" onchange="window.console.log(this.src);" frameborder="0" width="100%" height="100%"></iframe>
             </div>
-            <div class="col-lg-7 col-md-6 col-sm-12 border p-0 m-0">
+            <!-- <div id="live"  class="col-lg-7 col-md-6 col-sm-12 border p-0 m-0">
                 <iframe class="border" src="" id="liveCode" height="100%" width="100%" frameborder="0" ></iframe>    
+            </div> -->
+            
+            <div id="live" class="col-lg-7 col-md-6 col-sm-12 border p-0 m-0" style="position: relative;">
+                
+                <iframe class="border" src="" id="liveCode" height="593" width="295" frameborder="0"  style="position: absolute;top: 0px;left: 0px;"></iframe>    
+                <img src="image/iphone_mockup.png" alt="" style="position: absolute;top: 0px;left: 0px;">
             </div>
+           
         </div>
     </div>
     
