@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP learning</title>
+    <link rel="icon" href="image/small_logo.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     </head>
 <body style="background-color: skyblue; text-align: center; " >
@@ -45,7 +46,7 @@
             </div>
             <div class="col mt-4 ">
              <strong>
-                Առաջինը պետք է ընտրել ծրագիրը որով ցանկանում եք աշխատել : Խորհուրդ եմ տալիս օգտվել Visual Studio Code ծրագրից ( <a href="https://code.visualstudio.com/" style="color:blue;" >Visual Studio Code</a>) :  Մուտք գործելուց հետո ստեղծել նոր ֆայլ :  Այնուհետև ընտրել "PHP" :    <br> "Head" - Կայքի վերևի հատվածը:
+                Առաջինը պետք է ընտրել ծրագիրը որով ցանկանում եք աշխատել : Խորհուրդ եմ տալիս օգտվել Visual Studio Code ծրագրից ( <a href="https://code.visualstudio.com/" target="_blank" style="color:blue;" >Visual Studio Code</a>) :  Մուտք գործելուց հետո ստեղծել նոր ֆայլ :  Այնուհետև ընտրել "PHP" :    <br> "Head" - Կայքի վերևի հատվածը:
                 <br> "Body"- Կայքի այն հատվածը որտեղ կատարվում է աշխատանքը: <br> "Footer" - Կայքի ներքևի հատվածը: 
                 <br> Շատ կարևոր է ցանկացած փոփոխություն կատարելուց հետո սեղմել Ctrl+S :
              </strong>
@@ -132,7 +133,7 @@
         <div class="col">
             <div class="row">
              <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
-                 <a href="programming.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
+                 <a href="index.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
              </div>
              <div class="col-lg-6  mt-5 mb-5 ">
                  <a href="html.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >HTML</a>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML learning</title>
-    <link rel="icon" href="image/my_logo.jpg">
+    <link rel="icon" href="image/small_logo.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
@@ -22,7 +22,7 @@
            </div>
        </div>
        <div class="row">
-           <div class="col mt-5 mb-4 ">
+           <div class="col mt-5 mb-4  ">
                <h2 style="text-align: center; color: orangered; " > Ի՞նչ է HTML - ը </h2> <hr style="color: black;">
            </div>
            <br> <br> 
@@ -197,7 +197,7 @@
 
         <div class="row">
             <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
-                <a href="programming.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
+                <a href="index.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
             </div>
             <div class="col-lg-6  mt-5 mb-5 ">
                 <a href="php.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
