@@ -12,11 +12,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-1 offset-10">
-                <img src="image/mobile_logo.png" class="img-fluid" alt="" onclick="document.getElementById('live').outerHTML = `<div id='live' class='col-lg-7 col-md-6 col-sm-12 border p-0 m-0' style='position: relative;'><iframe class='border' src='' id='liveCode' height='593' width='295' frameborder='0'  style='position: absolute;top: 0px;left: 0px;'></iframe>  <img src='image/iphone_mockup.png' alt='' style='position: absolute;top: 0px;left: 0px;'></div>`">
+                <img src="image/mobile_logo.png" class="img-fluid" alt="" onclick="changeToPhone();">
             </div>
             <div class="col-1 ">
                 <img src="image/notebook.png" class="img-fluid" alt="" 
-                onclick="document.getElementById('live').outerHTML = `<div id='live'  class='col-lg-7 col-md-6 col-sm-12 border p-0 m-0'>    <iframe class='border' src='' id='liveCode' height='100%' width='100%' frameborder='0' ></iframe></div>`">
+                onclick="changeToPC();">
             </div>
         </div>
         <div class="row" style="min-height: 90vh;">
@@ -24,15 +24,17 @@
                 <!-- <textarea name="" id="code" cols="30" rows="10" oninput="updateIframeContent(document.getElementById('liveCode'),this.value);"></textarea> -->
                 <iframe src="highlight.php" id="codeInput" onchange="window.console.log(this.src);" frameborder="0" width="100%" height="100%"></iframe>
             </div>
-            <!-- <div id="live"  class="col-lg-7 col-md-6 col-sm-12 border p-0 m-0">
-                <iframe class="border" src="" id="liveCode" height="100%" width="100%" frameborder="0" ></iframe>    
-            </div> -->
-            
+            <div id="live"  class="col-lg-7 col-md-6 col-sm-12 border p-0 m-0" style="position: relative;">
+                <iframe class="border" src="" id="liveCode" height="100%" width="100%" frameborder="0" style="position: absolute;top: 0px;left: 0px;"></iframe>    
+                <img src="image/iphone_mockup.png" alt="" id="phone_mockup" style="position: absolute;top: 0px;left: 0px; display:none;">
+            </div>
+        
+<!-- 
             <div id="live" class="col-lg-7 col-md-6 col-sm-12 border p-0 m-0" style="position: relative;">
                 
                 <iframe class="border" src="" id="liveCode" height="593" width="295" frameborder="0"  style="position: absolute;top: 0px;left: 0px;"></iframe>    
                 <img src="image/iphone_mockup.png" alt="" style="position: absolute;top: 0px;left: 0px;">
-            </div>
+            </div> -->
            
         </div>
     </div>
@@ -62,6 +64,18 @@
             codeInput.editor.insert("");
             updateIframeContent(liveCode,codeInput.editor.getValue());
         };
+
+        function changeToPhone(){
+            document.getElementById('liveCode').height = "605";
+            document.getElementById('liveCode').width = "295";
+            document.getElementById('phone_mockup').style.display = "block";
+        }
+        function changeToPC(){
+            document.getElementById('liveCode').height = "100%";
+            document.getElementById('liveCode').width = "100%";
+            document.getElementById('phone_mockup').style.display = "none";
+
+        }
     </script>
     <!DOCTYPE html>
     <html lang="en">
