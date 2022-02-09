@@ -50,11 +50,11 @@
            </div>
        </div>
 
-        <div class="row">
-            <div class="col mt-4 ">
+        <div class="row mt-4">
+            <div class="col">
                <h3 style="color: orangered;">2.Վերնագիր</h3> 
             </div>
-            <div class="col mt-4">
+            <div class="col">
                <p> <strong>
                    Վերնագրի համար գոյություն ունի 6 չափ: Ամենամեծը h1-է : Իսկ ամենափոքրը h6: Այն գրվում է h1 : Փակվում /h1 : Իհարկե գրվում է &lt;&gt; սլաքների մեջ: Այն ինչ ցանկանում եք գրել պետք է գրել նրանց մեջտեղում :  
                </strong></p> <br> 
