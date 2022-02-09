@@ -71,8 +71,8 @@
  
         
        
-        <div class="row">
-            <div class="col mt-4">
+        <div class="row mt-4 ">
+            <div class="col ">
                <h3 style="color: orangered;">3.Ոճ</h3>
             </div>
             <div class="col">
@@ -89,11 +89,11 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col mt-4 ">
+        <div class="row mt-4 ">
+            <div class="col ">
                 <h3 style="color: orangered;" > 4. Տեքստ </h3>
             </div>
-            <div class="col mt-4 ">
+            <div class="col  ">
                 <p> <strong>
                     Սովորական տեքստ գրելու համար կարելի է օգտագործել <р> հրամանը որը նշանակում Է paragraph: Սակայն կարելի է տեքստին տալ նաև տարբեր ձևեր: Italic - <i>Տեքստը գրում է թեք</i> : Այն նշանակում են &lt;i&gt; : Strong - <strong>Տեքստը գրում է մուգ</strong> : Այս հրամաններին նույնպես կարելի է տալ style :  U - underline - <u>Ընդգծում է տեքստը</u> : 
                 </strong> </p>
@@ -109,11 +109,11 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col mt-4">
+        <div class="row mt-4 ">
+            <div class="col ">
                 <h3 style="color: orangered;" >4.Նկար</h3>
             </div>
-           <div class="col mt-4 ">
+           <div class="col  ">
                 <p> <strong>
                     Նկար վերցնելու համար հարկավոր է  Google-ից կամ այլ ցանցից ընտրել նկար, սեղմել աջ սեղմակը և ընտրել Copy image address hրամանը :
                     Նկար տեղադրելու համար հարկավոր է օգտվել img հրամանից : Image- նկար : Այս հրամանը գրելու դեպքում կտեսնեք , որ ավելանում է alt հրամանը ինչը շատ օգտակար , երբ նկարը չի երևում: Այնտեղ կարող եք կրճատ գրել ինչի մասին է նկարը:
@@ -130,11 +130,11 @@
             </div>
         </div>
     
-        <div class="row">
-            <div class="col mt-4 ">
+        <div class="row mt-4 ">
+            <div class="col ">
                 <h3 style="color: orangered;"> 5.Հղում(link) </h3>
             </div>
-            <div class="col mt-4 "> 
+            <div class="col "> 
                 <p><strong>
                    Հղումը օգտագործելու համար կարելի է օգտագործել &lt;a&gt; հրամանը : 
                 </strong></p>
@@ -151,11 +151,11 @@
             </div>
         </div>
        
-        <div class="row">
-            <div class="col mt-4 ">
+        <div class="row mt-4 ">
+            <div class="col">
                <h3 style="color: orangered;">6.Կոճակ(button)</h3>
             </div>
-            <div class="col mt-4 ">
+            <div class="col">
                 <button type="button" >Կոճակ</button>
                 <p><strong>
                     Կոճակի համար անհրաժեշտ է buttоn հրամանը: &lt;Button&gt;

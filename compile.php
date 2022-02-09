@@ -15,10 +15,10 @@
                 <a href="html.php"><img src="image/big_logo.png" class="img-fluid" alt="logo"></a> 
             </div>
             <div class="col-1 offset-8">
-                <img src="image/mobile_logo.png" class="img-fluid" alt="" onclick="changeToPhone();">
+                <img src="image/phone.png" class="img-fluid" alt="" onclick="changeToPhone();">
             </div>
             <div class="col-1 ">
-                <img src="image/notebook.png" class="img-fluid" alt="" 
+                <img src="image/computer.png" class="img-fluid" alt="" 
                 onclick="changeToPC();">
             </div>
         </div>

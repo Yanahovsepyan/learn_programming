@@ -126,7 +126,7 @@
 
         <div class="row">
             <div class="col mt-3  ">
-                <h3 style="color: blue; text-align: center; " > Շնորհավորում եմ դուք արդեն ունեք html-ի մասին սկզբնական գիտելիքներ </h3>
+                <h3 style="color: blue; text-align: center; " > Շնորհավորում եմ դուք արդեն ունեք PHP-ի մասին սկզբնական գիտելիքներ </h3>
             </div>
         </div>
         <hr style="color: black;" >
