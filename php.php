@@ -70,7 +70,7 @@
             <div class="col mt-4 ">
                 <strong>
                     Տեքստը PHP-ում գրում ենք echo հրամանով: Տեքստը գրելով "չակերտների" մեջ։  <br>
-                &quot;echo&quot; &semi;
+              
                 </strong>  
             </div>
         </div>  <hr style="color: darkslateblue;" >

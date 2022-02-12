@@ -11,7 +11,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 mt-3 ">
                 <a href="html.php"><img src="image/big_logo.png" class="img-fluid" alt="logo"></a> 
             </div>
             <div class="col-1 offset-8">
