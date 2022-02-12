@@ -197,10 +197,10 @@
 
         <div class="row">
             <div class="col-lg-6 mt-5 mb-5  " style="color: darkseagreen;" >
-                <a href="index.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
+                <a href="index" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >Programming</a>
             </div>
             <div class="col-lg-6  mt-5 mb-5 ">
-                <a href="php.php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
+                <a href="php" class="btn btn-dark btn-lg" style="width: 100%; color: white; " >PHP</a>
             </div>
         </div>
     
